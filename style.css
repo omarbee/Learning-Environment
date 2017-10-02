@@ -1,0 +1,22 @@
+body{
+  color: darkgreen;
+  background-color: 0,4,3;
+}
+h1{
+  color: darkblue;
+  font-family: arial;
+  font-size: 50px;
+}
+h2{
+  color: darkblue;
+  font-family: arial;
+  font-size: 40px;
+}
+h3{
+  color: darkblue;
+  font-family: arial;
+  font-size: 30px;
+}
+p{
+  font-size: 15px;
+}
