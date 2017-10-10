@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}/* permet de tout garder dans la boite*/
+body {
+  background-color: #E8E8E8;
+
+}/* Commentaire */
+
+div {
+  border-radius: 1%;
+}/* Commentaire */
+
+.container {
+  width:800px;
+  margin: auto;
+  margin-top: 2.5%;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 150%;
+  color: #A1A0A0;
+}/* le margin auto va centrer la div dans le body et grace au border box rien ne va depasser de la div */
+
+.block {
+  text-align: center;
+  padding: 2.5%;
+  margin-bottom: 5%;
+  background-color: white;
+  box-shadow: 1px 1px 2px 2px #BDBAAB;
+}/* box shadow pour donner une ombre aux div block */
+
+.bio p {
+  text-align: justify;
+  padding-left: 5%;
+  padding-right: 5%;
+}/* Commentaire */
+
+.image img {
+  border-radius: 100%;
+  border: 5px solid #E8E8E8;
+}/* Commentaire */
+
+.titre1 h1 {
+  color: #D43B3F;
+}/* Commentaire */
+
+.titre1 h2 {
+  color: #7A7A7A;
+}/* Commentaire */
+
+.link{
+  padding: 2.5%;
+}/* Commentaire */
+
+.link a {
+  background-color:#D43B3F;
+  padding: 20px;
+  border-radius: 5%;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 100%;
+  letter-spacing: 1px;
+}/* Commentaire */
+
+.link a:hover{
+  background-color: #7A7A7A;
+  transition: 0.3s;
+}/* Commentaire */
+
+
+.reseau li{
+  display: inline-block;
+  margin: 5%;
+}/* Commentaire */
+
+.reseau a{
+  text-decoration: none;
+  color: #CAC8C9;
+  font-weight: bolder;
+}/* Commentaire */
+
+.reseau span{
+  font-size: 200%;
+  color: #A1A0A0;
+}/* Commentaire */
+
+.reseau ul{
+  padding-left: 0;
+}/* Commentaire */
+
+.title {
+  color : #7A7A7A;
+  text-align: center;
+  padding-bottom: 5%;
+}/* Commentaire */
+
+.film {
+  display: flex;
+  padding-top: 2.5%;
+  padding-bottom: 10%;
+}/* Commentaire */
+
+.syno {
+  margin-left: 5%;
+}/* Commentaire */
+
+.his{
+  background-color: #CFCDCD;
+}/* Commentaire */
+
+.syno h4{
+  text-align: center;
+  margin-top: 0;
+  color: #7A7A7A;
+}/* Commentaire */
+
+.syno p{
+  text-align: justify;
+  line-height: 250%;
+}/* Commentaire */
