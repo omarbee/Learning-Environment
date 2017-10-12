@@ -1,0 +1,38 @@
+body {
+    background: url("starwars.jpg") center center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.maman {
+    width: 600px;
+    margin: 0 auto;
+    height: 800px;
+    text-align: justify;
+    font-weight:bold;
+    color: #BD9313;
+    font-size:  350%;
+    transform: perspective(300px) rotateX(25deg) ;
+}
+
+.tatada {
+    position: relative;
+    top: -100px;
+    transform-origin: 50% 100%;
+    animation: crawl 80s linear;
+}
+
+@keyframes crawl {
+    0% {
+        top: 500px;
+        transform: translateZ(0);
+        opacity: 1;
+    }
+    100% {
+        top: -6000px;
+        transform: translateZ(-2500px);
+        opacity: 0;
+    }
+}

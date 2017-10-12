@@ -1,0 +1,40 @@
+body{
+	display: grid;
+	grid-template-rows: 33% 33% 33%;
+	grid-template-columns: 33% 33% 33%;
+	background-color:#40A497;
+	color:#5D726F;
+	height:25%;
+	width:90%;
+}
+form{
+	display: inline-grid;
+}
+
+aside{
+	grid-row:;
+	grid-column: 1;	
+}
+
+article{
+	grid-row:8;
+	grid-column:;
+}
+
+
+}
+#intro{
+	grid-row:1;
+	grid-column:2;
+}
+
+.phys{
+	grid-row:2;
+	grid-column:2;
+}
+
+.virt{
+	grid-row:2;
+	grid-column:3
+}
+
